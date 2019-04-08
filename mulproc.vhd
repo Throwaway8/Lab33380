@@ -32,7 +32,7 @@ signal C21: std_logic;
 
 begin
 
-C10 <= (X(0) and Y(0)) and (X(1) and Y(0));
+C10 <= (X(0) and Y(1)) and (X(1) and Y(0));
 
 S11 <= C10 xor (X(1) and Y(1)) xor (X(2) and Y(0));
 
