@@ -49,7 +49,7 @@ variable C21: std_logic; --:= ((X(1) and Y(2)) and S12) or ((X(1) and Y(2)) and 
 
 begin
 
-C10 := (X(0) and Y(0)) and (X(1) and Y(0));
+C10 := (X(0) and Y(1)) and (X(1) and Y(0));
 
 S11 := C10 xor (X(1) and Y(1)) xor (X(2) and Y(0));
 
